@@ -1,0 +1,62 @@
+body{
+    height: 100%;
+    background-image: linear-gradient(to right,#e8f09c,#0a5eb2);
+}
+.game{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    background-color:rgb(179, 0, 89);
+    border-radius: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:80px 80px 80px 80px ;
+    grid-template-rows:80px 80px 80px 80px ;
+}
+.grid button{
+    background-color: rgb(237, 237, 237);
+    color: rgb(60, 14, 188);
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #660033;
+    outline: none;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer button{
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    width:80px;
+    height: 35px;
+    background-color: rgb(255, 255, 0);
+    color:  rgb(60, 14, 188);
+    outline: none;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color:blue;
+    color:rgb(255, 255, 0);
+}
+.footer span{
+    flex: 1.5;
+    text-align: center;
+    color: rgb(255, 255, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto 0;
+}
+.message{
+    color: red;
+    height: 80px;
+}
